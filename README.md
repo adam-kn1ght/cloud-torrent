@@ -15,7 +15,7 @@ See [Future Features here](#future-features)
 
 ### Install
 
-**Binaries**
+<!-- **Binaries**
 
 [![Releases](https://img.shields.io/github/release/adam-kn1ght/insane-torrent.svg)](https://github.com/adam-kn1ght/insane-torrent/releases) [![Releases](https://img.shields.io/github/downloads/adam-kn1ght/insane-torrent/total.svg)](https://github.com/adam-kn1ght/insane-torrent/releases)
 
@@ -36,7 +36,7 @@ curl https://i.adamknight.com/insane-torrent! | bash
 ``` sh
 $ docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads adam-kn1ght/insane-torrent
 ```
-
+-->
 **Source**
 
 *[Go](https://golang.org/dl/) is required to install from source*
