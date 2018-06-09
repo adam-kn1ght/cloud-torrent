@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/adam-kn1ght/insane-torrent/master/Screen%20Shot%202018-06-09%20at%204.38.23%20PM.png" alt="screenshot"/>
+<img src="https://user-images.githubusercontent.com/15851231/41191283-8f4e751e-6c06-11e8-85e3-1ffed5a6fd44.png" alt="screenshot"/>
 
 **Insane torrent** is a a self-hosted remote torrent client, written in Go (golang). You start torrents remotely, which are downloaded as sets of files on the local disk of the server, which are then retrievable or streamable via HTTP.
 
