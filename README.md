@@ -47,7 +47,7 @@ $ go get -v github.com/adam-kn1ght/insane-torrent
 
 **VPS**
 
-[Digital Ocean]<!--(https://m.do.co/c/011fa87fde07)-->
+**[Digital Ocean]**<!--(https://m.do.co/c/011fa87fde07)-->
 
   <!--1. [Sign up with free $10 credit](https://m.do.co/c/011fa87fde07)-->
   1. "Create Droplet"
@@ -67,8 +67,8 @@ $ go get -v github.com/adam-kn1ght/insane-torrent
       -v /root/downloads:/downloads \
       adam-kn1ght/insane-torrent --port 63000
 
-  13. Visit `http://<IP Address from email>:63000/`
-  14. **OPTIONAL** In addition to `--port` you can specify the options below
+  12. Visit `http://<IP Address from email>:63000/`
+  13. **OPTIONAL** In addition to `--port` you can specify the options below
 
 **[Vultr]**<!--(http://www.vultr.com/?ref=6947403-3B)-->
 
