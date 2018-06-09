@@ -123,9 +123,9 @@ In summary, the core features will be:
 * **File Transforms**
 
   During a file tranfer, one could apply different transforms against the byte stream for various effect. For example, supported transforms might include: video transcoding (using ffmpeg), encryption and decryption, [media sorting](https://github.com/jpillora/cloud-torrent/issues/4) (file renaming), and writing multiple files as a single zip file.
-  
+
 * **Automatic updates** Binary will upgrade itself, adding new features as they get released.
-  
+
 * **RSS** Automatically add torrents, with smart episode filter.
 
 Once completed, cloud-torrent will no longer be a simple torrent client and most likely project be renamed.
@@ -142,4 +142,4 @@ This project is the rewrite of the original [Node version](https://github.com/jp
 
 Credits to @anacrolix for https://github.com/anacrolix/torrent
 
-Copyright (c) 2017 Jaime Pillora# cloud-torrent
+Copyright (c) 2018 Adam Knight #Insane-torrent
