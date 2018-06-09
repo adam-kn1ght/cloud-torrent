@@ -149,7 +149,9 @@ This project is the rewrite of the original [Node version](https://github.com/jp
 
 Please check wiki page.
 
+<!--
 ![overview](https://docs.google.com/drawings/d/1ekyeGiehwQRyi6YfFA4_tQaaEpUaS8qihwJ-s3FT_VU/pub?w=606&h=305)
+-->
 
 Credits to @anacrolix for https://github.com/anacrolix/torrent
 
