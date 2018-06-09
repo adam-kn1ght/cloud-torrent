@@ -145,6 +145,10 @@ If you'd like to buy me a coffee or more, you can donate via [PayPal](https://ww
 
 This project is the rewrite of the original [Node version](https://github.com/jpillora/node-torrent-cloud).
 
+### Wiki
+
+Please check wiki page.
+
 ![overview](https://docs.google.com/drawings/d/1ekyeGiehwQRyi6YfFA4_tQaaEpUaS8qihwJ-s3FT_VU/pub?w=606&h=305)
 
 Credits to @anacrolix for https://github.com/anacrolix/torrent
