@@ -14,7 +14,7 @@ import (
 	"github.com/anacrolix/torrent/metainfo"
 )
 
-//the Engine Cloud Torrent engine, backed by anacrolix/torrent
+//the Engine Insane Torrent engine, backed by anacrolix/torrent
 type Engine struct {
 	mut      sync.Mutex
 	cacheDir string

@@ -2,7 +2,7 @@ FROM alpine:edge
 LABEL maintainer="dev@jpillora.com"
 # prepare go env
 ENV GOPATH /go
-ENV NAME cloud-torrent
+ENV NAME insane-torrent
 ENV PACKAGE github.com/jpillora/$NAME
 ENV PACKAGE_DIR $GOPATH/src/$PACKAGE
 ENV GOLANG_VERSION 1.9.1
@@ -12,7 +12,7 @@ ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 ENV CGO_ENABLED 0
 # in one step (to prevent creating superfluous layers):
 # 1. fetch and install temporary build programs,
-# 2. build cloud-torrent alpine binary
+# 2. build insane-torrent alpine binary
 # 3. remove build programs
 RUN set -ex \
 	&& apk update \
@@ -42,4 +42,4 @@ RUN set -ex \
 	&& apk del .build-deps \
 	&& rm -rf /no-pic.patch $GOPATH /usr/local/go
 #run!
-ENTRYPOINT ["cloud-torrent"]
+ENTRYPOINT ["insane-torrent"]

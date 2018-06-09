@@ -3,17 +3,17 @@ package main
 import (
 	"log"
 
-	"github.com/maiseea/Bajuse/server"
+	"github.com/adam-kn1ght/insane-torrent/server"
 	"github.com/jpillora/opts"
 )
 
-var VERSION = "1.0.0-beta" //set with ldflags
+var VERSION = "1.1.0-beta" //set with ldflags
 
 func main() {
 	s := server.Server{
 		Title:      "Insane - Torrent",
 		Port:       3000,
-		ConfigPath: "cloud-torrent.json",
+		ConfigPath: "insane-torrent.json",
 	}
 
 	o := opts.New(&s)

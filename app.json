@@ -1,10 +1,10 @@
 {
 	"name": "Insane Torrent",
-	"website": "https://github.com/maiseea/Bajuse",
-	"repository": "https://github.com/maiseea/Bajuse",
+	"website": "https://github.com/adam-kn1ght/insane-torrent",
+	"repository": "https://github.com/adam-kn1ght/insane-torrent",
 	"env": {
 		"TITLE": {
-			"description": "Optionally set the title of this instance (defaults to 'Cloud Torrent')",
+			"description": "Optionally set the title of this instance (defaults to 'Insane - Torrent')",
 			"required": false
 		},
 		"AUTH": {

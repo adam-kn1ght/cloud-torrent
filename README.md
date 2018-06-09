@@ -17,7 +17,7 @@ See [Future Features here](#future-features)
 
 **Binaries**
 
-[![Releases](https://img.shields.io/github/release/adam-kn1ght/insane-torrent.svg)](https://github.com/jpillora/cloud-torrent/releases) [![Releases](https://img.shields.io/github/downloads/adam-kn1ght/insane-torrent/total.svg)](https://github.com/jpillora/cloud-torrent/releases)
+[![Releases](https://img.shields.io/github/release/adam-kn1ght/insane-torrent.svg)](https://github.com/adam-kn1ght/insane-torrent/releases) [![Releases](https://img.shields.io/github/downloads/adam-kn1ght/insane-torrent/total.svg)](https://github.com/adam-kn1ght/insane-torrent/releases)
 
 See [the latest release](https://github.com/adam-kn1ght/insane-torrent/releases/latest) or download and install it now with
 
@@ -60,7 +60,7 @@ $ go get -v github.com/adam-kn1ght/insane-torrent
   9. You will be emailed the server details (`IP Address: ..., Username: root, Password: ...`)
   10. SSH into the server using these details (Windows: [Putty](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe), Mac: Terminal)
   11. Follow the prompts to set a new password
-  12. Run `cloud-torrent` with:
+  12. Run `insane-torrent` with:
 
     docker run --name ct -d -p 63000:63000 \
       --restart always \
@@ -93,11 +93,11 @@ $ insane-torrent --help
   Usage: insane-torrent [options]
 
   Options:
-  --title, -t        Title of this instance (default Cloud Torrent, env TITLE)
+  --title, -t        Title of this instance (default Insane - Torrent, env TITLE)
   --port, -p         Listening port (default 3000, env PORT)
   --host, -h         Listening interface (default all)
   --auth, -a         Optional basic auth in form 'user:password' (env AUTH)
-  --config-path, -c  Configuration file path (default cloud-torrent.json)
+  --config-path, -c  Configuration file path (default insane-torrent.json)
   --key-path, -k     TLS Key file path
   --cert-path, -r    TLS Certicate file path
   --log, -l          Enable request logging
@@ -121,7 +121,7 @@ In summary, the core features will be:
 
 * **Remote backends**
 
-  It's looking like `0.9` will be more of a general purpose cloud transfer engine. It will be capable of transfering files from and source file-system to any destination file-system. A torrent can be viewed a folder with files, just like your local disk, and Dropbox. As long as it has a concept of files and folders, it could potentially be a cloud-torrent file-system backend. Track this issue https://github.com/adam-kn1ght/insane-torrent/issues/24 for the list of proposed backends.
+  It's looking like `0.9` will be more of a general purpose cloud transfer engine. It will be capable of transfering files from and source file-system to any destination file-system. A torrent can be viewed a folder with files, just like your local disk, and Dropbox. As long as it has a concept of files and folders, it could potentially be a insane-torrent file-system backend. Track this issue https://github.com/adam-kn1ght/insane-torrent/issues/24 for the list of proposed backends.
 
 * **File Transforms**
 
@@ -131,7 +131,7 @@ In summary, the core features will be:
 
 * **RSS** Automatically add torrents, with smart episode filter.
 
-Once completed, cloud-torrent will no longer be a simple torrent client and most likely project be renamed.
+Once completed, insane-torrent will no longer be a simple torrent client and most likely project be renamed.
 
 #### Donate
 

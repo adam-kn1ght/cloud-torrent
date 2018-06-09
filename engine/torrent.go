@@ -14,7 +14,7 @@ type Torrent struct {
 	Downloaded int64
 	Size       int64
 	Files      []*File
-	//cloud torrent
+	//insane torrent
 	Started      bool
 	Dropped      bool
 	Percent      float32
@@ -29,7 +29,7 @@ type File struct {
 	Size      int64
 	Chunks    int
 	Completed int
-	//cloud torrent
+	//insane torrent
 	Started bool
 	Percent float32
 	f       torrent.File

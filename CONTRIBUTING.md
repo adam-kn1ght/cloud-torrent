@@ -4,18 +4,18 @@ Quick start:
 
 * Download Go
 * Setup `GOPATH`
-* `go get github.com/jpillora/cloud-torrent`
-* `cd $GOPATH/src/github.com/jpillora/cloud-torrent`
+* `go get github.com/adam-kn1ght/insane-torrent`
+* `cd $GOPATH/src/github.com/adam-kn1ght/insane-torrent`
 * Fork this repo
 * Change remote to your fork
 * Edit static files
 * Edit backend Go files
 * `go generate ./... && go install`
-* `$GOPATH/bin/cloud-torrent`
+* `$GOPATH/bin/insane-torrent`
 
 To add new dependencies:
 
-* `cd $GOPATH/src/github.com/jpillora/cloud-torrent`
+* `cd $GOPATH/src/github.com/adam-kn1ght/insane-torrent`
 * `rm -rf vendor/`
 * `go get -u -v .` Fetch all dependencies into your GOPATH
 * `go get github.com/foo/bar`

@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/NYTimes/gziphandler"
-	"github.com/maiseea/Bajuse/engine"
-	"github.com/maiseea/Bajuse/static"
+	"github.com/adam-kn1ght/insane-torrent/engine"
+	"github.com/adam-kn1ght/insane-torrent/static"
 	"github.com/jpillora/cookieauth"
 	"github.com/jpillora/requestlog"
 	"github.com/jpillora/scraper/scraper"
