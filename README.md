@@ -25,7 +25,7 @@ See [the latest release](https://github.com/adam-kn1ght/insane-torrent/releases/
 curl https://i.adamknight.com/insane-torrent! | bash
 ```
 
-*Tip*: [Auto-run `cloud-torrent` on boot](https://github.com/adam-kn1ght/insane-torrent/wiki/Auto-Run-on-Reboot)
+*Tip*: [Auto-run `insane-torrent` on boot](https://github.com/adam-kn1ght/insane-torrent/wiki/Auto-Run-on-Reboot)
 
 **Docker**
 
@@ -88,9 +88,9 @@ $ go get -v github.com/adam-kn1ght/insane-torrent
 ### Usage
 
 ```
-$ cloud-torrent --help
+$ insane-torrent --help
 
-  Usage: cloud-torrent [options]
+  Usage: insane-torrent [options]
 
   Options:
   --title, -t        Title of this instance (default Cloud Torrent, env TITLE)
@@ -109,23 +109,23 @@ $ cloud-torrent --help
     0.X.Y
 
   Read more:
-    https://github.com/jpillora/cloud-torrent
+    https://github.com/adam-kn1ght/insane-torrent
 
 ```
 
 ### Future features
 
-The next set of [core features can be tracked here](https://github.com/jpillora/cloud-torrent/issues?q=is%3Aopen+is%3Aissue+label%3Acore-feature). This feature set requires large structural changes and therefore requires a complete rewrite for best results. This rewrite is in progress in the `0.9` branch though it will take quite some time.
+The next set of [core features can be tracked here](https://github.com/adam-kn1ght/insane-torrent/issues?q=is%3Aopen+is%3Aissue+label%3Acore-feature). This feature set requires large structural changes and therefore requires a complete rewrite for best results. This rewrite is in progress in the `0.9` branch though it will take quite some time.
 
 In summary, the core features will be:
 
 * **Remote backends**
 
-  It's looking like `0.9` will be more of a general purpose cloud transfer engine. It will be capable of transfering files from and source file-system to any destination file-system. A torrent can be viewed a folder with files, just like your local disk, and Dropbox. As long as it has a concept of files and folders, it could potentially be a cloud-torrent file-system backend. Track this issue https://github.com/jpillora/cloud-torrent/issues/24 for the list of proposed backends.
+  It's looking like `0.9` will be more of a general purpose cloud transfer engine. It will be capable of transfering files from and source file-system to any destination file-system. A torrent can be viewed a folder with files, just like your local disk, and Dropbox. As long as it has a concept of files and folders, it could potentially be a cloud-torrent file-system backend. Track this issue https://github.com/adam-kn1ght/insane-torrent/issues/24 for the list of proposed backends.
 
 * **File Transforms**
 
-  During a file tranfer, one could apply different transforms against the byte stream for various effect. For example, supported transforms might include: video transcoding (using ffmpeg), encryption and decryption, [media sorting](https://github.com/jpillora/cloud-torrent/issues/4) (file renaming), and writing multiple files as a single zip file.
+  During a file tranfer, one could apply different transforms against the byte stream for various effect. For example, supported transforms might include: video transcoding (using ffmpeg), encryption and decryption, [media sorting](https://github.com/adam-kn1ght/insane-torrent/issues/4) (file renaming), and writing multiple files as a single zip file.
 
 * **Automatic updates** Binary will upgrade itself, adding new features as they get released.
 
@@ -135,7 +135,11 @@ Once completed, cloud-torrent will no longer be a simple torrent client and most
 
 #### Donate
 
+Will be updated later.
+<!--
 If you'd like to buy me a coffee or more, you can donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=dev%40jpillora%2ecom&lc=AU&item_name=Open%20Source%20Donation&button_subtype=services&currency_code=USD&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted) or BitCoin `1AxEWoz121JSC3rV8e9MkaN9GAc5Jxvs4`.
+
+-->
 
 ### Notes
 
