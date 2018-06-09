@@ -142,4 +142,4 @@ This project is the rewrite of the original [Node version](https://github.com/jp
 
 Credits to @anacrolix for https://github.com/anacrolix/torrent
 
-Copyright (c) 2017 Jaime Pillora
+Copyright (c) 2017 Jaime Pillora# cloud-torrent
