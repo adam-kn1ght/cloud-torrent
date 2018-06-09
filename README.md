@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png" alt="screenshot"/>
 
-**Cloud torrent** is a a self-hosted remote torrent client, written in Go (golang). You start torrents remotely, which are downloaded as sets of files on the local disk of the server, which are then retrievable or streamable via HTTP.
+**Insane torrent** is a a self-hosted remote torrent client, written in Go (golang). You start torrents remotely, which are downloaded as sets of files on the local disk of the server, which are then retrievable or streamable via HTTP.
 
 ### Features
 
@@ -17,24 +17,24 @@ See [Future Features here](#future-features)
 
 **Binaries**
 
-[![Releases](https://img.shields.io/github/release/jpillora/cloud-torrent.svg)](https://github.com/jpillora/cloud-torrent/releases) [![Releases](https://img.shields.io/github/downloads/jpillora/cloud-torrent/total.svg)](https://github.com/jpillora/cloud-torrent/releases)
+[![Releases](https://img.shields.io/github/release/adam-kn1ght/insane-torrent.svg)](https://github.com/jpillora/cloud-torrent/releases) [![Releases](https://img.shields.io/github/downloads/adam-kn1ght/insane-torrent/total.svg)](https://github.com/jpillora/cloud-torrent/releases)
 
-See [the latest release](https://github.com/jpillora/cloud-torrent/releases/latest) or download and install it now with
+See [the latest release](https://github.com/adam-kn1ght/insane-torrent/releases/latest) or download and install it now with
 
 ```
-curl https://i.jpillora.com/cloud-torrent! | bash
+curl https://i.adamknight.com/insane-torrent! | bash
 ```
 
-*Tip*: [Auto-run `cloud-torrent` on boot](https://github.com/jpillora/cloud-torrent/wiki/Auto-Run-on-Reboot)
+*Tip*: [Auto-run `cloud-torrent` on boot](https://github.com/adam-kn1ght/insane-torrent/wiki/Auto-Run-on-Reboot)
 
 **Docker**
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/jpillora/cloud-torrent.svg)][dockerhub] [![Image Size](https://images.microbadger.com/badges/image/jpillora/cloud-torrent.svg)][dockerhub]
+[![Docker Pulls](https://img.shields.io/docker/pulls/adam-kn1ght/insane-torrent.svg)][dockerhub] [![Image Size](https://images.microbadger.com/badges/image/adam-kn1ght/insane-torrent.svg)][dockerhub]
 
-[dockerhub]: https://hub.docker.com/r/jpillora/cloud-torrent/
+[dockerhub]: https://hub.docker.com/r/adam-kn1ght/insane-torrent/
 
 ``` sh
-$ docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads jpillora/cloud-torrent
+$ docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads adam-kn1ght/insane-torrent
 ```
 
 **Source**
@@ -42,7 +42,7 @@ $ docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads jpillora/cloud-
 *[Go](https://golang.org/dl/) is required to install from source*
 
 ``` sh
-$ go get -v github.com/jpillora/cloud-torrent
+$ go get -v github.com/adam-kn1ght/insane-torrent
 ```
 
 **VPS**
@@ -65,7 +65,7 @@ $ go get -v github.com/jpillora/cloud-torrent
     docker run --name ct -d -p 63000:63000 \
       --restart always \
       -v /root/downloads:/downloads \
-      jpillora/cloud-torrent --port 63000
+      adam-kn1ght/insane-torrent --port 63000
 
   13. Visit `http://<IP Address from email>:63000/`
   14. **OPTIONAL** In addition to `--port` you can specify the options below
@@ -80,7 +80,10 @@ $ go get -v github.com/jpillora/cloud-torrent
 
 **Heroku**
 
-Heroku is no longer supported
+<p>Click this button to...</p>
+<p>
+<a href="https://heroku.com/deploy" rel="nofollow"><img src="https://camo.githubusercontent.com/c0824806f5221ebb7d25e559568582dd39dd1170/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e706e67" alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.png" style="max-width:100%;"></a>
+</p>
 
 ### Usage
 
