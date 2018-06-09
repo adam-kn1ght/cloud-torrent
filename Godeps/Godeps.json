@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/adam-kn1ght/insnae-torrent",
+	"ImportPath": "github.com/adam-kn1ght/insane-torrent",
 	"GoVersion": "go1.10.2",
 	"GodepVersion": "v7989",
 	"Deps": [
