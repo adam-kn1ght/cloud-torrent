@@ -1,0 +1,15 @@
+{
+	"name": "Insane Torrent",
+	"website": "https://github.com/admknight/insane-torrent",
+	"repository": "https://github.com/admknight/insane-torrent",
+	"env": {
+		"TITLE": {
+			"description": "Optionally set the title of this instance (defaults to 'Insane - Torrent')",
+			"required": false
+		},
+		"AUTH": {
+			"description": "Optional HTTP authentication in the form user:password",
+			"required": false
+		}
+	}
+}
